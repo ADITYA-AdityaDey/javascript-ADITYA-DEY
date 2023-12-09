@@ -3,11 +3,11 @@ let user1Email = "user1Email@gcom"
 var user1Password = "ABCDE"
 user1City = "KOLKATA"
 
-// user1Id = 2222 NOT ALLOWED
+// user1Id = 2222   "NOT ALLOWED, BECAUSE IT IS CONST"
 user1Email = "user1Email@com"
 user1Password = "MNOPQ"
 user1City = "BENGALURU"
-let user1State;
+let user1State;    //UNDEFINED
 
 
 
