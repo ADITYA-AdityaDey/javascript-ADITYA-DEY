@@ -77,3 +77,40 @@ const myFunction = function() {
 console.log(typeof id1);
 console.log(typeof currentTemp);
 console.log(typeof skill);
+
+
+
+
+
+
+// #################################################################
+
+
+// Stack Memory(Primitive) & Heap Memory(Non-Primitive)
+
+
+// Stack Memory(Primitive)
+let cityName = "kolkata"
+
+let anotherCityName = cityName
+anotherCityName = "Bengaluru"
+
+console.log(anotherCityName);
+console.log(cityName);
+
+
+// Heap Memory(Non-Primitive)
+let person1 = {
+
+    email: "person1@email.com",
+    password: "ABCDEF"
+
+}
+
+let person2 = person1
+
+person2.password = "abcdef"
+
+
+console.log(person1);
+console.log(person2);
