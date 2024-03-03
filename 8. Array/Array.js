@@ -41,3 +41,29 @@ console.log("B ", myArray3);
 const mynewarr2 = myArray3.splice(1, 4)
 console.log(mynewarr2);
 console.log(myArray3); //splice manipulate original array
+
+
+
+///////////////////////////////////////////////////
+
+
+
+const tech1 = ["js", "react", "css"]
+const tech2 = ["html", "nodejs"]
+
+// tech1.push(tech2)
+
+// console.log(tech1);
+// console.log(tech1[3][1]);
+
+// concat
+// const tech3 = tech1.concat(tech2)
+// console.log(tech3);
+
+
+
+const tech4 = [...tech1, ...tech2]
+console.log(tech4)
+
+
+
