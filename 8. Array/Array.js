@@ -62,8 +62,25 @@ const tech2 = ["html", "nodejs"]
 
 
 
-const tech4 = [...tech1, ...tech2]
-console.log(tech4)
+// const tech4 = [...tech1, ...tech2]
+// console.log(tech4)
+
+
+const anotherArray = [1, 2, 3, 4, 5, 6, [7, 8, 9], 10, 11, 12, [13, 14, 15, [16, 17]]]
+const flatArray = anotherArray.flat(Infinity)
+console.log(flatArray);
+
+
+console.log(Array.isArray("ADITYA"))
+console.log(Array.from("ADITYA"))
+console.log(Array.from({name: "ADITYA"}))
 
 
 
+let score1 = 99
+let score2 = 100
+let score3 = 90
+let score4 = 78
+let score5 = 98
+
+console.log(Array.of(score1, score2, score3, score4, score5))
